@@ -1,0 +1,20 @@
+package com.gen.day8;
+import java.util.*;
+
+class SuperHero {
+	private final String id;
+    private final String name;
+    private final int age;
+}
+
+
+
+
+public class ComparabaleDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<E> superhero = new ArrayList<>();
+	}
+
+}

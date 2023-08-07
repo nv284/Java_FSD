@@ -1,0 +1,12 @@
+package com.gen.day7;
+import java.util.*;
+
+public class LinkedHashMap1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+LinkedHashMap<String , String > lhmap = new  LinkedHashMap<>(16, 0.75f,true);
+
+	}
+
+}

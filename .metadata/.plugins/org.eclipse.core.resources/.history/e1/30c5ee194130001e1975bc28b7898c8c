@@ -1,0 +1,22 @@
+package com.gen.day8;
+
+import java.util.Comparator;
+import java.util.List;
+
+public class ComparatorDemo  {
+	
+	public static void sortByName(List<SuperHero> super1) {
+		Comparator<SuperHero> nameCom = (SuperHero s1 , SuperHero s2) -> 
+		{return s1.getName().compareTo(s2.getName());};
+		
+	}
+	public static void sortByAge(List<SuperHero> super2) {
+		
+	}
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,15 @@
+package com.gen.day8;
+/*
+ * Every element in the Collection has to be computed before it can
+ *  be added to the Collection. While a Stream is conceptually a pipeline in which elements are computed on demand.
+ * */
+import java.util.*;
+
+public class StreamsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

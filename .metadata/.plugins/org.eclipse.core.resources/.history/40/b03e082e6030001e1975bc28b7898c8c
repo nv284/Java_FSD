@@ -1,0 +1,21 @@
+package com.gen.day8;
+/*A Consumer is a functional interface that accepts a single input and returns no output.
+ * void accept(T t);
+* default Consumer<T> andThen(Consumer<? super T> after);
+
+ * */
+
+class Item{
+	private String itemName;
+	private int price;
+	
+}
+
+public class ConsumerInterfaceDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,37 @@
+package com.gen.day7;
+
+import java.util.Objects;
+
+class Student{
+	int rollno;
+	String name;
+	public Student(int rollno, String name) {
+		super();
+		this.rollno = rollno;
+		this.name = name;
+	}
+	@Override
+	public int hashCode() {
+		return  rollno;
+	}
+	@Override
+	public boolean equals(Object obj) {
+		
+		Student other = (Student) obj;
+		return (this.rollno == other.rollno);
+	}
+	
+}
+
+
+
+
+
+public class HashSetUserObj {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

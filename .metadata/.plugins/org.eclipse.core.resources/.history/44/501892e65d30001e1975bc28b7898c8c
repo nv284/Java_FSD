@@ -1,0 +1,16 @@
+package com.gen.day8;
+
+import java.util.stream.Stream;
+
+public class TerminalOpDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Stream.of("A","B","C").parallel().forEach(x->System.out.println("forEach: "+x));
+		
+		Stream.of("A","B","C").parallel().forEachOrdered(x-> System.out.println("foreachordered "+x));
+				
+	}
+
+}

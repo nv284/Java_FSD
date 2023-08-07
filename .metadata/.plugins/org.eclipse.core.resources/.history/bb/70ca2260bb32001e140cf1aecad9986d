@@ -1,0 +1,41 @@
+package com.gen.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.util.*;
+
+public class CreateTable {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Scanner s=new Scanner(System.in);
+         try {
+             System.out.println("Enter city id:");
+             int username =s.nextInt();
+             System.out.println("Enter city id:");
+             String name =s.next();
+             
+		
+		try {
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println(" Driver loaded ");
+
+		//step 2
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/genpact1","root", "root");
+		System.out.println("Connected...");
+		
+		//step3 
+		Statement stm = con.createStatement();
+		
+		
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

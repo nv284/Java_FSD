@@ -1,0 +1,38 @@
+package com.gen.day8;
+/*
+ * Every element in the Collection has to be computed before it can
+ *  be added to the Collection. While a Stream is conceptually a pipeline in which elements are computed on demand.
+ *  
+ *  terminal operation - return result of a curtain type 
+ *  intermediate operation - return the stream itself so we can chain multiple methods in a row to
+ *   perform the operation in multiple steps 
+ *   
+ *   stream operation perform sequentially or parallel 
+ * */
+import java.util.*;
+
+public class StreamsDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<Integer> a = new ArrayList<>();
+a.add(20);a.add(5);a.add(12);a.add(7);a.add(30);
+
+private static int sumStream(ArrayList<Integer> a) {
+	return a1.stream().filter(i->i>10).mapToInt(i-> i).sum();
+}
+
+
+
+Iterator<Integer> itr = a.iterator();
+int sum = 0;
+while(itr.hasNext()) {
+	int num = itr.next();
+	if(num>10) {
+		sum = sum+num;
+	}
+}
+
+	}
+
+}

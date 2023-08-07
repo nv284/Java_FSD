@@ -1,0 +1,5 @@
+package com.gen.day8;
+
+public class ComparatorDemo implements Comparable<T> {
+
+}

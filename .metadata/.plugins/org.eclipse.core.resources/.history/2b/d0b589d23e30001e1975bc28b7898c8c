@@ -1,0 +1,41 @@
+package com.gen.day8;
+import java.util.*;
+
+class SuperHero implements Comparable<SuperHero>{
+	private final String id;
+    private final String name;
+    private final int age;
+	public SuperHero(String id, String name, int age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+	public String getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	@Override
+	public int compareTo(final SuperHero o) {
+		// TODO Auto-generated method stub
+		return this.id.compareTo(o.id);
+	}
+    
+}
+
+
+
+
+public class ComparabaleDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ArrayList<E> superhero = new ArrayList<>();
+	}
+
+}

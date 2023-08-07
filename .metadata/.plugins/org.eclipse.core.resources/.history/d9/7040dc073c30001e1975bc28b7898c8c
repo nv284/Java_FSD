@@ -1,0 +1,9 @@
+package com.gen.day8;
+
+@FunctionalInterface
+public interface DemoInterface {
+	
+	void print() ;
+	//default , static 
+
+}

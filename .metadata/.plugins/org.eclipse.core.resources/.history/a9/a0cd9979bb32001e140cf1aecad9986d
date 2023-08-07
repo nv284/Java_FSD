@@ -1,0 +1,46 @@
+package com.gen.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+import java.util.*;
+
+public class CreateTable {
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+         try {
+        	 Scanner s=new Scanner(System.in);
+             System.out.println("Enter city id:");
+             int id =s.nextInt();
+             System.out.println("Enter city name:");
+             String name =s.next();
+             System.out.println("Enter city pin:");
+             int pin =s.nextInt();
+             
+		String query = "INSERT INTO city VALUES ("
+                + id + ", " + "\'" + name +"\' ,"
+                +"\'"+ pin + ") ";
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println(" Driver loaded ");
+
+		//step 2
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/genpact1","root", "root");
+		System.out.println("Connected...");
+		
+		//step3 
+		Statement stm = con.createStatement();
+		
+		
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+		
+	}
+
+}

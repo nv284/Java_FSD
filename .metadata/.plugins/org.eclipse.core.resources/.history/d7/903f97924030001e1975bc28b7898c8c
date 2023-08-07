@@ -1,0 +1,35 @@
+package com.gen.day8;
+
+public class ComparatorDemo implements Comparable<ComparatorDemo> {
+	private final String id;
+    private final String name;
+    private final int age;
+	
+	public ComparatorDemo(String id, String name, int age) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+	}
+	public String getId() {
+		return id;
+	}
+	public String getName() {
+		return name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public static void sortByName() {
+		
+	}
+	public static void sortByAge() {
+		
+	}
+	
+	
+	
+	
+	
+
+}
